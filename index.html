@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400" rel="stylesheet">
+</head>
+
+<body>
+  
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- background image -->
+  <div class="background">
+      <img class="mySlides" src="/img/web1.jpg" style="width:100% ">
+      <img class="mySlides" src="img/web2.jpg" style="width:100%">
+      <img class="mySlides" src="img/web3.jpg" style="width:100%">
+
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 4000); // Change image every 2 seconds
+    }
+    </script>
+
+
+
+
+
+
+     <!-- background image -->
+
+
+
+   <h2 style=" margin-top: -317px;
+   margin-left: 576px; font-size: 40px; color:rgb(255, 102, 0) ; ">Iam a <span style="color: rgb(255, 196, 0);">web </span>Developer </h2>
+    <h1 style="color:rgb(255, 102, 0) ;" class="aboutas margin-top">  <span class="txt-type" data-wait="3000"
+      data-words='["Back End Developer With Php Laraver"]'></span></h1>
+  </div>
+  <div class="navbar">
+    <ul>
+      <li style="float: left;">
+        <a class="active" href="#about">
+          <span class="m">m</span>
+          <span class="color_f">omen</span>
+          <span class="color_l">Zidane</span>
+        </a>
+      </li>
+
+      <div class="hover">
+        <li><a href="#contact">Contact Us</a></li>
+      </div>
+      <div class="hover">
+        <li><a href="#our-customers">Customers</a></li>
+      </div>
+      <div class="hover">
+        <li><a href="#ourProject">Project</a></li>
+      </div>
+      <div class="hover">
+        <li><a href="#Myskile">Skills</a></li>
+      </div>
+      <div class="hover">
+        <li><a href="#AboutUs">About Us</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <div class="aboutas" id="AboutUs">
+    <div class="left-aboutas">
+      <h2 style="color: rgb(255, 102, 0); font-size: 30px;">About Us</h2>
+      <p style="line-height: 30px; font-size: 17px; color: rgb(121, 121, 121);">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+        numquam natus. deserunt sint neque libero eligendi tenetur explicabo
+        vero? Explicabo accusantium quaerat iusto minus adipisci officia
+        ratione id eveniet, maiores delectus atque, modi. Nobis fugit harum
+        soluta ullam. Animi blanditiis quaerat consectetur possimus nemo,
+        cupiditate libero inventore.
+      </p>
+    </div>
+    <div class="right-aboutas">
+      <img src="img/web.jpg" alt="" style="width: 382px; padding-top: 10%; padding-left: 18%;" />
+    </div>
+  </div>
+
+  <div class="Myskile" id="Myskile">
+    <div class="left-skile">
+      <h2 style="color: rgb(255, 102, 0); font-size: 30px;">My skile</h2>
+      <p style="line-height: 30px; font-size: 17px; color: rgb(121, 121, 121);">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+        numquam natus. deserunt sint neque libero eligendi tenetur explicabo
+        vero? Explicabo accusantium quaerat iusto minus adipisci officia
+        <br />
+        ratione id eveniet, maiores delectus atque, modi. Nobis fugit harum
+        soluta ullam. Animi blanditiis quaerat consectetur possimus nemo,
+        cupiditate libero inventore.
+      </p>
+      <a href="mailto:eng2016momen@gamil.com" class="mailto">Contact me</a>
+    </div>
+    <div class="right-skile">
+      <div class="skile-itme-perant">
+        <div class="skile-itme">
+          <p>javaScript</p>
+          <div class="skile-moshen" id="js_right"></div>
+        </div>
+        <div class="skile-itme">
+          <p style="padding-right: 20px;">HTML</p>
+          <div class="skile-moshen" id="html_right"></div>
+        </div>
+        <div class="skile-itme">
+          <p style="padding-right: 35px;">CSS</p>
+          <div class="skile-moshen" id="css_right"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <h2 style="text-align: center; font-size: 35px; color: rgb(255, 102, 0); ">
+    Ou<span style="text-decoration: underline ;">r Proje</span>ct
+  </h2>
+
+  
+  <div class="ourProject" id="ourProject">
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+    <div class="system">
+      <img src="img/web.jpg" alt="" />
+      <span>text system</span>
+    </div>
+  </div>
+  <div class="ht" style="height: 465px; width: 0px;"></div>
+  <!-- <div class="background-black-white " style="background-color: rgb(230, 230, 230); margin-top: -60px;"> -->
+
+  <h2  class=" h2-ourCustomer" >
+    Our Customers
+  </h2>
+
+  <!-- </div> -->
+
+  <div class="our-customers">
+    <div class="item-customers">
+      <img src="img/user.png" alt="" style="border: 2px rgb(255, 102, 0) solid; border-radius: 70px;" />
+      <h3>Momen Zidane</h3>
+      <p>
+        Lorem sit amet consectetur adipisicing
+        <br />
+        Nostrum recusandae adipisci autem
+        <br />
+        quis quas rem porro doloremqu!
+      </p>
+    </div>
+    <div class="item-customers">
+      <img src="img/user.png" alt="" style="border: 2px rgb(255, 102, 0) solid; border-radius: 70px;" />
+      <h3>Momen Zidane</h3>
+      <p>
+        Lorem sit amet consectetur adipisicing
+        <br />
+        Nostrum recusandae adipisci autem
+        <br />
+        quis quas rem porro doloremqu!
+      </p>
+    </div>
+    <div class="item-customers">
+      <img src="img/user.png" alt="" style="border: 2px rgb(255, 102, 0) solid; border-radius: 70px;" />
+      <h3>Momen Zidane</h3>
+      <p>
+        Lorem sit amet consectetur adipisicing
+        <br />
+        Nostrum recusandae adipisci autem
+        <br />
+        quis quas rem porro doloremque!
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+  <h2 style="
+        color: rgb(255, 102, 0);
+        font-size: 30px;
+        text-align: center;
+        margin-top: 52px;
+      ">
+    Contact-us
+  </h2>
+  <div class="map" style="background-color: brown; width: auto; height: 600px;">
+    <div class="conternr-map">
+      <div class="map-left">
+        <input type="text" name="text" id="" class="fex" placeholder="Your Name" />
+        <input type="email" name="email" id="" class="fex" placeholder="Your Email" />
+        <input type="text" name="text" id="" class="fex" placeholder="Your Phone" />
+        <input type="text" name="text" id="" class="fex" placeholder="Your Subject" />
+        <div class="boutton">
+          <p>Contact Me</p>
+        </div>
+      </div>
+      <div class="map-right">
+        <textarea style="margin: 0px; width: 352px; height: 216px;" name="" id="" cols="30" rows="11"
+          placeholder="Your Message"></textarea>
+      </div>
+    </div>
+  </div>
+  <div class="bootom">
+    <p>copyRight &copy; 2021 web Momen Zidane</p>
+    <div class="img_bootom">
+      <img src="img/LinkedIn.png" alt="" />
+      <img src="img/Twitter.png" alt="" />
+      <img src="img/Pinterest.png" alt="" />
+      <img src="img/YouTube.png" alt="" />
+      <img src="img/Google_.png" alt="" />
+      <img src="img/Facebook.png" alt="" />
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script>
+      
+
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
+// 
+
+
+
+let m = document.getElementById("html_right");
+m.style.width = "250px";
+
+m.style.transition = "5s";
+
+
+let m1 = document.getElementById("css_right")
+m1.style.width = "200px";
+m1.style.transition = "5s";
+let m2 = document.getElementById("js_right")
+m2.style.width = "300px";
+m2.style.transition = "5s";
+
+    
+    </script>
+    
+ 
+</body>
+
+</html>
